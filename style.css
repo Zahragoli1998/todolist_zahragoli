@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+#form{
+  background-color:white;
+  width: 80%;
+  margin: 5% auto;
+  text-align: center;
+  font-family: 'Patrick Hand', cursive;
+  font-size: 28px;
+  
+}
+html{
+  background: url("4.1.JPG");
+}
+#box{
+  background-color: #739426;
+  width: 80%;
+  margin: auto;
+  display: flex;
+  padding: 20px;
+  flex-wrap: wrap;
+  flex-direction: column;
+  text-decoration: rgb(46, 6, 6);
+  text-align: start;
+  border-radius: 16px;
+
+}
+
+#title {
+  background-color: #31e097;
+  border-color:rgb(7, 117, 93);
+  width: 50%;
+  height: 40px;
+  outline: none;
+  border-width: 2px;
+  border-style: double;
+  border-radius: 8px;
+}
+#search {
+  background-color: #31e097;
+  border-color:rgb(7, 117, 93);
+  width: 50%;
+  height: 40px;
+  outline: none;
+  border-width: 2px;
+  border-style: double;
+  border-radius: 8px;
+}
+#btn {
+  border: white 2px;
+  background: #6b44ac;
+  cursor: pointer;
+  width: 32px;
+  height: 40px;
+  position: absolute;
+  top: 12.2%;
+  right: 24%;
+  padding: 9px;
+  background: url("5.png");
+}
+
+.card{
+  background-color: #bfc933;
+  width: 750px;;
+  height: 50px;
+  padding: 4px 4px;
+  margin: 2px;
+  border-radius: 10px;
+}
+.delete{
+  color: rgb(105, 17, 17);
+  border: rgb(24, 20, 15) dashed;
+  position: relative;
+  bottom:42px;
+  left: 115%;
+  padding: 5px;
+  cursor: pointer;
+}
+.delete:active,
+.delete:hover{
+  background-color:rgb(105, 17, 17);
+  color: whitesmoke;
+}
+.edit{
+  color: rgb(11, 109, 27);
+  border: rgb(24, 20, 15) dashed;
+  position: relative;
+  bottom:42px;
+  left: 95%;
+  padding: 5px;
+  cursor: pointer;
+}
+.edit:active,
+.edit:hover{
+  background-color: rgb(11, 109, 27);
+  color: whitesmoke;
+}
+.itemdone {
+  color: rgb(12, 100, 16);
+  text-decoration: line-through;
+}
